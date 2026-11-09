@@ -1,0 +1,24 @@
+# Local environments and Python outputs
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.ipynb_checkpoints/
+.pytest_cache/
+# Dataset and generated runs
+data/raw/*
+!data/raw/.gitkeep
+lish-moa/
+*.csv
+*.zip
+outputs/
+# Local settings / credentials
+.env
+kaggle.json
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
